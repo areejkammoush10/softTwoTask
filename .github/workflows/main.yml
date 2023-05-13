@@ -14,5 +14,5 @@ jobs:
 
       - name: "login to Docker hub"
 
-        run: dockerlogin --username areej10 --password dckr_pat_njV7i4dABhHjChh9FUgeeI4yGa8
+        run: docker login --username areej10 --password dckr_pat_njV7i4dABhHjChh9FUgeeI4yGa8
      
