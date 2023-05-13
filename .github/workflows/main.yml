@@ -13,6 +13,5 @@ jobs:
       - name: 'Areej'
         run: pwd
       - name: 'Testing actions'
-        run: echo areej
-      - name: "pushing to Docker hub"
-        run: docker push ${{ secrets.DOCKER_USERNAME }}/myimage
+        run: echo areej 
+        
