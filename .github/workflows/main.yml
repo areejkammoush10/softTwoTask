@@ -10,8 +10,6 @@ jobs:
 
     steps: 
      
-      - name: 'Areej'
-        run: pwd
-      - name: 'Testing actions'
-        run: echo areej 
-        
+      - name: 'printing folder content'
+        run: ls
+     
